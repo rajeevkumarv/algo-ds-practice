@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/rajverm2/CLionProjects/algo-practice/graph/UndirectedGraph.h
+std_def.h
+-
+
+/Users/rajverm2/CLionProjects/algo-practice/graph/main.cpp
+std_def.h
+-
+UndirectedGraph.h
+/Users/rajverm2/CLionProjects/algo-practice/graph/UndirectedGraph.h
+
+include/std_def.h
+vector
+-
+iostream
+-
+string
+-
+unordered_map
+-
+list
+-
+set
+-
+iterator
+-
+
